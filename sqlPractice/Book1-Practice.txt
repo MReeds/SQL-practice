@@ -73,3 +73,5 @@ SELECT last_name,
 FROM customers
 WHERE company_name IS NULL;
 -- ***CORRECT SOLUTION*** --
+
+
