@@ -291,3 +291,11 @@ select * from employees
 order by employee_id desc
 select * from dealershipemployees 
 where employee_id = 1011
+
+CREATE INDEX employee_name ON Employees
+(
+	first_name
+);
+
+EXPLAIN ANALYZE
+SELECT first_name FROM Employees
